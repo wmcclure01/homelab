@@ -1,20 +1,20 @@
-<mxfile host="app.diagrams.net" modified="2024-02-06T00:34:29.030Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="XCqhd5lu1idBTRMfMjdC" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-06T00:35:41.941Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="_1bRZKlNJ7KFyf_pe2wP" version="23.1.1" type="github">
   <diagram id="a45cf8ec-cd66-6f27-3ac3-be6e809c9e4a" name="Page-1">
     <mxGraphModel dx="2074" dy="1098" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="vccDXUJ2TS7fj880tAXQ-174" value="&lt;span style=&quot;line-height: 17.1818180084229px&quot;&gt;LAN&amp;nbsp;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;strokeColor=none;fillColor=#BAC8D3;gradientColor=none;fontSize=18;fontColor=#AE4132;verticalAlign=top;fontStyle=0;opacity=70;strokeWidth=3;" vertex="1" parent="1">
-          <mxGeometry x="920" y="60" width="660" height="830" as="geometry" />
-        </mxCell>
-        <mxCell id="vccDXUJ2TS7fj880tAXQ-183" value="" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;strokeColor=none;fillColor=#AFBDC7;gradientColor=none;fontSize=18;fontColor=#AE4132;verticalAlign=top;fontStyle=0;opacity=70;strokeWidth=3;" vertex="1" parent="1">
-          <mxGeometry x="920" y="400" width="450" height="299.5" as="geometry" />
-        </mxCell>
         <mxCell id="3" value="" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;strokeColor=none;fillColor=#BAC8D3;gradientColor=none;fontSize=18;fontColor=#F08705;opacity=40;fontStyle=0;strokeWidth=3;" parent="1" vertex="1">
           <mxGeometry x="40" width="1600" height="960" as="geometry" />
         </mxCell>
+        <mxCell id="vccDXUJ2TS7fj880tAXQ-174" value="&lt;span style=&quot;line-height: 17.1818180084229px&quot;&gt;LAN&amp;nbsp;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;strokeColor=none;fillColor=#BAC8D3;gradientColor=none;fontSize=18;fontColor=#AE4132;verticalAlign=top;fontStyle=0;opacity=70;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="890" y="60" width="710" height="830" as="geometry" />
+        </mxCell>
+        <mxCell id="vccDXUJ2TS7fj880tAXQ-183" value="" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;strokeColor=none;fillColor=#AFBDC7;gradientColor=none;fontSize=18;fontColor=#AE4132;verticalAlign=top;fontStyle=0;opacity=70;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="890" y="420" width="710" height="470" as="geometry" />
+        </mxCell>
         <mxCell id="5" value="&lt;span style=&quot;line-height: 17.1818180084229px&quot;&gt;WiFi&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;strokeColor=none;fillColor=#BAC8D3;gradientColor=none;fontSize=18;fontColor=#AE4132;verticalAlign=top;fontStyle=0;opacity=70;strokeWidth=3;" parent="1" vertex="1">
-          <mxGeometry x="110" y="60" width="700" height="830" as="geometry" />
+          <mxGeometry x="80" y="60" width="720" height="830" as="geometry" />
         </mxCell>
         <mxCell id="vccDXUJ2TS7fj880tAXQ-173" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="23" target="vccDXUJ2TS7fj880tAXQ-172">
           <mxGeometry relative="1" as="geometry" />
@@ -46,10 +46,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="vccDXUJ2TS7fj880tAXQ-172" value="" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png" vertex="1" parent="1">
-          <mxGeometry x="820" y="280" width="80" height="80" as="geometry" />
+          <mxGeometry x="800" y="280" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="vccDXUJ2TS7fj880tAXQ-175" value="Chappie" style="image;html=1;image=img/lib/clip_art/computers/Server_128x128.png" vertex="1" parent="1">
-          <mxGeometry x="930" y="400" width="80" height="80" as="geometry" />
+          <mxGeometry x="910" y="440" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="vccDXUJ2TS7fj880tAXQ-176" value="HAL9000" style="image;html=1;image=img/lib/clip_art/computers/Server_128x128.png" vertex="1" parent="1">
           <mxGeometry x="940" y="170" width="80" height="80" as="geometry" />
