@@ -1,0 +1,17 @@
+---
+services:
+  datascience-notebook:
+    image: jupyter/base-notebook:latest
+    volumes:
+      - CHANGE_TO_COMPOSE_DATA_PATH/jupyter:/home/docker_worker/work
+    ports:
+      - 8891:8888
+    command: "start-notebook.sh"
+    user: root
+    environment:
+      NB_USER: Admin
+      NB_UID: 1001
+      NB_GID: 1001
+      CHOWN_HOME: 'yes'
+      CHOWN_HOME_OPTS: -R
+    restart: unless-stopped
