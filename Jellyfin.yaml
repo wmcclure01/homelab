@@ -1,0 +1,20 @@
+---
+# https://hub.docker.com/r/linuxserver/jellyfin
+services:
+  jellyfin:
+    image: lscr.io/linuxserver/jellyfin:latest
+    container_name: jellyfin
+    environment:
+      - PUID=1001
+      - PGID=1001
+      - TZ=America/Detroit
+    volumes:
+      - CHANGE_TO_COMPOSE_DATA_PATH/jellyfin/library:/config
+      - /srv/dev-disk-by-uuid-4559f844-1642-409b-9f46-8155bc65a232/TV:/data/tvshows
+      - /srv/dev-disk-by-uuid-4559f844-1642-409b-9f46-8155bc65a232/Movies:/data/movies
+    ports:
+      - 8096:8096
+      - 8920:8920 #optional
+      - 7359:7359/udp #optional
+      - 1900:1900/udp #optional
+    restart: unless-stopped
