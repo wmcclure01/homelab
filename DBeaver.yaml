@@ -1,0 +1,14 @@
+version: '3.7'
+
+services:
+ dbeaver:
+    image: dbeaver/cloudbeaver:latest
+    container_name: CloudBeaver
+    restart: unless-stopped
+    volumes:
+      - /srv/dev-disk-by-uuid-186ca92b-dc89-4afd-8103-867b6f516c9e/Portainer/data/dbeaver-data:/opt/cloudbeaver/workspace
+    ports:
+      - 5021:8978
+
+volumes:
+  dbeaver-data:
