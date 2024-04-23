@@ -1,0 +1,29 @@
+version: "3.3"
+services:
+  ghost:
+    image: ghost:latest
+    restart: always
+    ports:
+      - "2368:2368"
+    depends_on:
+      - db
+    environment:
+      url: <landing page>
+      database__client: mysql
+      database__connection__host: db
+      database__connection__user: ghost
+      database__connection__password: <pass>
+      database__connection__database: ghostdb
+    volumes:
+      - /srv/dev-disk-by-uuid-186ca92b-dc89-4afd-8103-867b6f516c9e/Portainer/data/home/ghost/content:/var/lib/ghost/content
+
+  db:
+    image: mariadb:latest
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: <pass>
+      MYSQL_USER: ghost
+      MYSQL_PASSWORD: <pass>
+      MYSQL_DATABASE: ghostdb
+    volumes:
+      - /srv/dev-disk-by-uuid-186ca92b-dc89-4afd-8103-867b6f516c9e/Portainer/data//home/ghost/mysql:/var/lib/mysql
