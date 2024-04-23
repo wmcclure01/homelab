@@ -1,0 +1,12 @@
+version: "3.7"
+
+services:
+  audiobookshelf:
+    image: ghcr.io/advplyr/audiobookshelf:latest
+    ports:
+      - 13378:80
+    volumes:
+      - /srv/dev-disk-by-uuid-186ca92b-dc89-4afd-8103-867b6f516c9e/Portainer/data/abs/audiobooks:/audiobooks
+      - /srv/dev-disk-by-uuid-186ca92b-dc89-4afd-8103-867b6f516c9e/Portainer/Config/abs/metadata:/metadata
+      - /srv/dev-disk-by-uuid-186ca92b-dc89-4afd-8103-867b6f516c9e/Portainer/Config/abs/config:/config
+    restart: unless-stopped
